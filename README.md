@@ -1,2 +1,4 @@
-Tutorial using Polymer (https://www.polymer-project.org)
-========================================================
+Tutorial using Polymer
+======================
+
+(https://www.polymer-project.org)
