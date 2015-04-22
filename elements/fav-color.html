@@ -1,0 +1,25 @@
+﻿<!--<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>-->
+
+<link rel="import" href="../bower_components/polymer/polymer.html" />
+
+<polymer-element name="fav-color">
+    <template>
+        This is <b>{{owner}}</b>'s fav-color element.
+        {{owner}} like the color
+        <span style="color: {{color}}">{{color}}</span>.
+    </template>
+    <script>
+        Polymer({
+            owner: "Vincent",
+            color: "green"
+        });
+    </script>
+</polymer-element>
